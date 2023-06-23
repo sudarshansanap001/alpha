@@ -1,0 +1,32 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: txt 1s infinite;
+}
+body{
+    animation: party 1s infinite;
+}
+@keyframes party{
+    0%{
+        background-color: yellow;
+    }50%{
+        background-color: blue;
+    }75%{
+        background-color: red;
+    }100%{
+        background-color: chocolate;
+    }
+}
+@keyframes txt{
+    0%{
+        color: aqua;
+    }50%{
+        color: chartreuse;
+    }75%{
+        color: coral;
+    }100%{
+        color: deeppink;
+    }
+}

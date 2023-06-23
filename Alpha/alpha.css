@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
+}
+#Headersection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+}
+#Headersection #left h1{
+font-size: 15px;
+}
+#Headersection #right ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+#Headersection #right ul li button{
+border: 2px solid grey;
+border-radius: 5px;
+width: 80px;
+height: 40px;
+background-color: transparent;
+color: white;
+}
+#Headersection #left h1 span{
+    font-weight: 100;
+}
+#Bodysection {
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+}
+#Bodysection h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#Bodysection p{
+    font-size: 20px;
+
+}
+#Bodysection button{
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-top: 25px;
+    color: grey;
+}
+#Bodysection #bt2{
+    background-color: transparent;
+    border: 2px solid #c4baba;
+    color: white;
+}
+#Contentsection{
+    text-align: center;
+    background-color:white;
+    width: 70%;
+    margin: auto;
+    margin-top: 137px;
+    padding-top: 20px;
+    border-radius: 7px;
+    color: #6d6d6d;
+}
+#Contentsection h1{
+    font-size: 37px;
+}
+#Contentsection p{
+    font-size: 20px;
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+#Contentsection img{
+    width: 100%;
+}
+#menu{
+    display: none;
+}
+#Iconsection {
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    color:#6d6d6d; 
+    padding: 21px;
+}
+#Iconsection div{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+.fa.fa-bolt{
+    font-size: 40px;
+    border-radius: 100%;
+    background-color:#e89980;
+    color: white;
+    padding: 22px 33px;
+}
+.fa.fa-area-chart{
+    font-size: 40px;
+    border-radius: 100%;
+    background-color:#7fcdb8;
+    color: white;
+    padding: 23px 23px;
+}
+.fa.fa-cloud{
+    font-size: 40px;
+    border-radius: 100%;
+    background-color:#90b0ba;
+    color: white;
+    padding: 23px 23px;
+    
+}
+.fa.fa-lock{
+    font-size: 40px;
+    border-radius: 100%;
+    background-color:#e5cb95;
+    color: white;
+    padding: 23px 30px;
+}
+#one{
+    border-right:2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+    top: 1px;
+}
+#four{
+    border-left:2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+#Imagesection{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    color:#6d6d6d;
+    justify-content: space-between;
+}
+#Imagesection div{
+    text-align: center;
+    width: 45%;
+    background-color: white;
+}
+#Imagesection div img{
+    width: 100%;
+}
+#Iconsection section{
+    margin-left: 20px;
+}
+
+/* mobile version */
+@media (max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: grey;
+        padding: 5px 6px;
+        border-radius: 4px;
+    }
+    #Headersection{
+        display: none;  
+    }
+    body{
+        background-size: 200%;
+        background-position-x:center;
+    }
+    #Bodysection {
+        margin-top: 0px;
+        width: 80%;
+        margin: auto;
+    }
+    #Bodysection h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #Bodysection p{
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    #Bodysection button{
+        width: 100%;   
+    }
+    #Contentsection{
+        width: 100%;
+        margin: auto;
+        margin-top: 62px;
+    }
+    #Contentsection h1{
+        font-size: 25px;
+    }
+    #Contentsection p{
+        width: 90%;
+        font-size: 18px;
+    }
+    br{
+        display: none;
+    }
+}
+
